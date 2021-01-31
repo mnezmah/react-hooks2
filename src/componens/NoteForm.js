@@ -19,6 +19,9 @@ const NoteForm = () => {
 
 
   return (
+    <>
+    <p>Add note
+    </p>
   <form onSubmit={addNote}>
     <input
       placeholder='Title'
@@ -33,6 +36,7 @@ const NoteForm = () => {
     ></textarea>
     <button>add note</button>
   </form>
+  </>
   )
 }
 
